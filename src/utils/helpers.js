@@ -11,4 +11,16 @@ const getRandMapKey = (map) => {
   return mapKeys[randomNumber];
 };
 
-export { isEven, getIntRandomNumber, getRandMapKey };
+const gcd = (a, b) => {
+  if (!b) {
+    return a;
+  }
+  return gcd(b, a % b);
+};
+
+export {
+  isEven,
+  getIntRandomNumber,
+  getRandMapKey,
+  gcd,
+};
