@@ -15,7 +15,8 @@ npm link
 
 ## Starting games
 Type:
-* `brain-even`
+* `brain-even` - guess the parity of a number;
+* `brain-calc` - calculate a math expression;
 
 ## Games
 
@@ -23,4 +24,9 @@ Type:
 Guess the parity of a number:
 
 [![asciicast](https://asciinema.org/a/IfGlCzwoFIK5FtQBmJQKqJHVg.svg)](https://asciinema.org/a/IfGlCzwoFIK5FtQBmJQKqJHVg)
+
+
+### Brain Calc
+Calculate a math expression:
+
 [![asciicast](https://asciinema.org/a/FcrUOWakjtYkM1jQogqlB3XkU.svg)](https://asciinema.org/a/FcrUOWakjtYkM1jQogqlB3XkU)
