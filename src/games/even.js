@@ -1,8 +1,5 @@
 import readlineSync from 'readline-sync';
-
-const isEven = (number) => number % 2 === 0;
-
-const getIntRandomNumber = (number = 100) => Math.ceil(Math.random() * number);
+import { isEven, getIntRandomNumber } from '../utils/helpers.js';
 
 export default () => {
   console.log('Welcome to the Brain Games!');

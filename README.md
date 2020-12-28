@@ -23,3 +23,4 @@ Type:
 Guess the parity of a number:
 
 [![asciicast](https://asciinema.org/a/IfGlCzwoFIK5FtQBmJQKqJHVg.svg)](https://asciinema.org/a/IfGlCzwoFIK5FtQBmJQKqJHVg)
+[![asciicast](https://asciinema.org/a/FcrUOWakjtYkM1jQogqlB3XkU.svg)](https://asciinema.org/a/FcrUOWakjtYkM1jQogqlB3XkU)
