@@ -1,8 +1,17 @@
-const MAX_INT_RANSOM_NUMBER = 100;
+const MAX_INT_RANDOM_NUMBER = 100;
 
 const isEven = (number) => number % 2 === 0;
 
-const getIntRandomNumber = (number = MAX_INT_RANSOM_NUMBER) => Math.ceil(Math.random() * number);
+const isPrime = (number) => {
+  if (number === 1) return false;
+  const upperLimit = Math.ceil(number / 2);
+  for (let i = 2; i < upperLimit; i += 1) {
+    if (number % i === 0) return false;
+  }
+  return true;
+};
+
+const getIntRandomNumber = (number = MAX_INT_RANDOM_NUMBER) => Math.ceil(Math.random() * number);
 
 const getRandMapKey = (map) => {
   const mapKeys = Object.keys(map);
@@ -23,4 +32,5 @@ export {
   getIntRandomNumber,
   getRandMapKey,
   gcd,
+  isPrime,
 };

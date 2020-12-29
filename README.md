@@ -19,6 +19,7 @@ Type:
 * `brain-calc` - the user must calculate a math expression;
 * `brain-gcd` - the user must calculate and enter the greatest common divisor of these numbers;
 * `brain-progression` - the user must determine number in a row;
+* `brain-prime` - the user must determine whether a prime number;
 
 ## Game descriptions
 
@@ -40,5 +41,9 @@ The user must calculate and enter the greatest common divisor of these numbers:
 ### Brain Progression
 The user must determine number in a row:
 [![asciicast](https://asciinema.org/a/gFQJkusClL0umbRcuKDWRLxf5.svg)](https://asciinema.org/a/gFQJkusClL0umbRcuKDWRLxf5)
+
+### Brain Prime
+The user must determine whether a prime number:
+[![asciicast](https://asciinema.org/a/u4hF0xClOdK87ZERAhpJIQF0k.svg)](https://asciinema.org/a/u4hF0xClOdK87ZERAhpJIQF0k)
 
 
