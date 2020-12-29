@@ -5,15 +5,10 @@ const createProgression = (
   startProgression,
   endProgression,
   stepProgression,
-  hiddenElement = null,
 ) => {
   const result = [];
   for (let i = startProgression; i <= endProgression; i += stepProgression) {
-    if (hiddenElement === i) {
-      result.push('...');
-    } else {
-      result.push(i);
-    }
+    result.push(i);
   }
   return result;
 };
@@ -22,7 +17,7 @@ const hideProgressionElement = (coll, index) => {
   const result = [];
   for (let i = 0; i < coll.length; i += 1) {
     if (index === i) {
-      result.push('...');
+      result.push('..');
     } else {
       result.push(coll[i]);
     }
@@ -41,8 +36,11 @@ export default () => {
     const endProgression = 100;
     const stepProgression = getIntRandomNumber(Math.floor(endProgression / 10));
 
-    const progressionCollection = createProgression(startProgression, endProgression,
-      stepProgression);
+    const progressionCollection = createProgression(
+      startProgression,
+      endProgression,
+      stepProgression,
+    );
     const indexHiddenElement = getIntRandomNumber(progressionCollection.length - 1);
     const progressionCollectionWithHidden = hideProgressionElement(
       progressionCollection, indexHiddenElement,
@@ -51,7 +49,7 @@ export default () => {
     const correctAnswer = progressionCollection[indexHiddenElement];
 
     console.log(
-      `Question: ${progressionCollectionWithHidden.join(', ')}`,
+      `Question: ${progressionCollectionWithHidden.join(' ')}`,
     );
     const answer = readlineSync.question('Your answer: ');
     if (correctAnswer !== Number(answer)) {
