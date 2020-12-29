@@ -18,6 +18,7 @@ Type:
 * `brain-even` - the user must guess the parity of a number;
 * `brain-calc` - the user must calculate a math expression;
 * `brain-gcd` - the user must calculate and enter the greatest common divisor of these numbers;
+* `brain-progression` - the user must determine number in a row;
 
 ## Game descriptions
 
@@ -35,4 +36,9 @@ The user must calculate a math expression:
 ### Brain Gcd
 The user must calculate and enter the greatest common divisor of these numbers:
 [![asciicast](https://asciinema.org/a/wcbJmQ3m79z45O2CcUfXXY9Se.svg)](https://asciinema.org/a/wcbJmQ3m79z45O2CcUfXXY9Se)
+
+### Brain Progression
+The user must determine number in a row:
+[![asciicast](https://asciinema.org/a/gFQJkusClL0umbRcuKDWRLxf5.svg)](https://asciinema.org/a/gFQJkusClL0umbRcuKDWRLxf5)
+
 
