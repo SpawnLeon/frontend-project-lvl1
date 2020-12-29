@@ -1,5 +1,5 @@
 ### Hexlet tests and linter status:
-[![Actions Status](https://github.com/SpawnLeon/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/SpawnLeon/frontend-project-lvl1/actions) ![linter](https://github.com/SpawnLeon/frontend-project-lvl1/workflows/linter/badge.svg) [![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)
+[![Actions Status](https://github.com/SpawnLeon/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/SpawnLeon/frontend-project-lvl1/actions) ![linter](https://github.com/SpawnLeon/frontend-project-lvl1/workflows/linter/badge.svg) [![Maintainability](https://api.codeclimate.com/v1/badges/83e384efdd946b15aa82/maintainability)](https://codeclimate.com/github/SpawnLeon/frontend-project-lvl1/maintainability)
 
 # Brain Games
 Command-line games for improve your brain :)
