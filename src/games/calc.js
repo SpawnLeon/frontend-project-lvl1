@@ -21,7 +21,7 @@ export default () => {
   const secondOperand = getIntRandomNumber();
   const randMapKey = getRandMapKey(operationMap);
   const { process: operationProcess, format: operationFormat } = operationMap[randMapKey];
-  const correctAnswer = operationProcess(firstOperand, secondOperand);
+  const correctAnswer = String(operationProcess(firstOperand, secondOperand));
   const question = `Question: ${operationFormat(firstOperand, secondOperand)}`;
   return { rules, correctAnswer, question };
 };

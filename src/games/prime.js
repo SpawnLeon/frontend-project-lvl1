@@ -6,5 +6,6 @@ export default () => {
   const currentRandomNumber = getIntRandomNumber();
   const correctAnswer = isPrime(currentRandomNumber) ? 'yes' : 'no';
   const question = `Question: ${currentRandomNumber}`;
+
   return { rules, correctAnswer, question };
 };

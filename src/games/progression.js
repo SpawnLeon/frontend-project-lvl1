@@ -14,7 +14,7 @@ export default () => {
   const progressionCollectionWithHidden = hideProgressionElement(
     progressionCollection, indexHiddenElement,
   );
-  const correctAnswer = progressionCollection[indexHiddenElement];
+  const correctAnswer = String(progressionCollection[indexHiddenElement]);
   const question = `Question: ${progressionCollectionWithHidden.join(' ')}`;
   return { rules, correctAnswer, question };
 };
